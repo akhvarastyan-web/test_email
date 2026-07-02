@@ -1,7 +1,8 @@
 module.exports = {
-  extends: "@mate-academy/stylelint-config",
+  extends: [
+    "stylelint-config-standard-scss"
+  ],
   plugins: [
     "stylelint-scss"
   ],
-  rules: {}
 };
