@@ -5,6 +5,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
     "lint:js": "eslint .",
     "lint:css": "stylelint \"src/**/*.scss\"",
     "lint:html": "linthtml src/**/*.html",
